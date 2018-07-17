@@ -4,6 +4,7 @@ Has the ability to create fictional names from syllables and real world names fr
 
 Run from root directory with:
 ```bash
+javac -d bin src/*.java
 java -cp ".:lib/sqlite-jdbc-3.23.1.jar:bin/" NameGenerator
 ```
 
